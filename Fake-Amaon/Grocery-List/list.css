@@ -1,0 +1,70 @@
+body {
+  background-image: url('Assets/linedpaper.png');
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
+}
+
+form { 
+  color: #3498db;
+  font-size: 22px;
+}
+
+input[type="text"]{
+  background-color : #f8fbfb;
+}
+
+#addNeed {
+  background-color : #13f5f1;
+  color: #011624;
+}
+
+#addHave {
+  background-color : #13f5f1;
+  color: #011624;
+}
+
+h1 {
+  color: #4183D7;
+  font-size: 50px;
+}
+
+h2 {
+  color: #4183D7;
+  font-size: 42px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.list {
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 500px;
+  border: 1px solid #dedede;
+}
+.list li {
+  list-style: none;
+  background-color : #f8f8f8;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #3498db;
+}
+li a {
+  float: right;
+  text-decoration: none;
+  color: red;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+       (min--moz-device-pixel-ratio: 2),    
+       (min-resolution: 2dppx),             
+       (min-resolution: 192dpi)             
+{
+	body {
+		background-image: url('Assets/linedpaper_@2x.png');
+	}
+}
